@@ -1,0 +1,51 @@
+.loginForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    max-width: 400px;
+    margin: 2rem auto;
+    background-color: #f4f3ee;
+}
+
+.loginForm > h1 {
+    text-transform: uppercase;
+}
+
+.loginForm h3 {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.loginForm button {
+    padding: 0.5rem;
+    background-color: #5dbea3;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    margin: 1rem;
+    min-width: 300px;
+    cursor: pointer;
+}
+
+.loginForm button:hover {
+    background-color: #33b249;
+}
+
+.loginForm button:active {
+    transform: scale(0.98);
+}
+
+.loginForm input {
+    padding: 0.5rem;
+}
+
+.hideIcon {
+    width: 20px;
+    cursor: pointer;
+}
+
+.toggleSignin {
+    text-decoration: underline;
+    cursor: pointer;
+}   

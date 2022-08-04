@@ -1,34 +1,22 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Project template / boilerplate with Next.js, TypeScript, Redux, Next-auth, and Prisma
+This template gives me a one-day headstart for my projects. It includes:
+- [Next.js](https://nextjs.org/) with [TypeScript](https://www.typescriptlang.org/)
+- [Redux](https://redux.js.org/) with [Redux Toolkit](https://redux-toolkit.js.org/) and typed hooks
+- [Next-auth](https://next-auth.js.org/) with credentials and JWT
+- [Prisma](https://www.prisma.io/)
+- [CUID](https://github.com/ericelliott/cuid) for IDs
+- [bcrypt.js](https://www.npmjs.com/package/bcrypt) for password hashing
+- ready-made login component with email and password
+![Ready-made login component](/public/loginComponent.png)
 
-## Getting Started
-
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## How to use this template for your own project?
+1. On this repository's Github page click "Use this template" and follow the process - [here's detailed guidelines](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template)
+2. In your terminal, run <code>git clone <repository-url></code> (take the URL from your own Github page)
+3. Open the project folder in your terminal and run <code>npm install</code>
+4. Create a new database (if you need one). It's super-easy to do in [Railway](https://railway.app/), for example. I use PostgreSQL databases.
+5. Create .env file to the project's root folder.
+6. Copy Postgres Connection URL from Railway to .env file like this: DATABASE_URL="add_your_postgres_connection_url_here"
+7. Run <code>npm run dev</code>
+8. Open the browser and go to <code>http://localhost:3000</code>
+9. You should see the login and todo components.
+10. Start creating your project!
