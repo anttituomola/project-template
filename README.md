@@ -10,7 +10,7 @@ This template gives me a one-day headstart for my projects. It includes:
 ![Ready-made login component](/public/loginComponent.png)
 
 ## How to use this template for your own project?
-1. On this repository's Github page click "Use this template" and follow the process - [here's detailed guidelines](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template)
+1. On [this repository's Github page](https://github.com/anttituomola/project-template) click "Use this template" and follow the process - [here's detailed guidelines](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template)
 2. In your terminal, run <code>git clone <repository-url></code> (take the URL from your own Github page)
 3. Open the project folder in your terminal and run <code>npm install</code>
 4. Create a new database (if you need one). It's super-easy to do in [Railway](https://railway.app/), for example. I use PostgreSQL databases.
